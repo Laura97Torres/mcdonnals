@@ -1,0 +1,59 @@
+.logo{
+    height: 60%;
+    display: block;
+    margin: auto;
+}
+.sliding{
+    background-color: #cc0000;
+}
+.cupon{
+    height: 50%;
+    display: flex;
+    margin: auto 10px auto 0px;
+}
+.menu{
+    color: white;
+    margin: auto 0px auto 10px;
+}
+.foto img{
+    width: 100%;
+}
+
+.lista-inicio a{
+    color: white;
+    background-color: #cc0000;
+    height: 75px;
+    margin: 0px 0px 1px 0px;
+    display: flex;
+}
+.lista-inicio img{
+    height: 60%;
+    margin: 0px 20px
+}
+.pagina-dos .sliding{
+    background-color: white;
+}
+.pagina-dos i{
+    color: #ffcc00;
+}
+.pagina-dos h6{
+    color: black;
+    margin: 0px 20%
+}
+.titulo{
+    text-align: center
+}
+.ciudad{
+    border-bottom: 1px solid #d6d6d6;
+    width: 60%;
+    margin: auto;
+    list-style: none
+}
+.domicilio {
+    display: block;
+    margin: 10px ;
+}
+.domicilio img{
+    width: 15%;
+    color: orange
+}
