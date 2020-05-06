@@ -8,15 +8,18 @@
 }
 .cupon{
     height: 50%;
-    display: flex;
-    margin: auto 10px auto 0px;
+    margin: 0px 10px 0px 0px
 }
 .menu{
     color: white;
-    margin: auto 0px auto 10px;
 }
 .foto img{
     width: 100%;
+}
+.titulo-dos {
+    text-align: left;
+    color: #fc0;
+    margin: 0px 350px 0px 10px
 }
 
 .lista-inicio a{
@@ -38,7 +41,7 @@
 }
 .pagina-dos h6{
     color: black;
-    margin: 0px 20%
+    margin: 0px 30%
 }
 .titulo{
     text-align: center
@@ -56,4 +59,13 @@
 .domicilio img{
     width: 15%;
     color: orange
+}
+.swiper-wrapper img{
+    margin: 0px 10px 35px;
+    height: 190px;
+    justify-content: space-around
+}
+.sub-titulo{
+    padding: 30px 0px 10px 10px;
+    background-color: transparent
 }
