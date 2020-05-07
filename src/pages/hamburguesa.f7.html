@@ -1,0 +1,79 @@
+<template>
+  <div class="page" data-name="home">
+    <!-- Top Navbar -->
+    <div class="navbar">
+      <div class="navbar-inner sliding">
+           <div class="left">
+               <a href="/menu/">
+                   <i class="menu f7-icons color-white">arrow_left</i>
+               </a>
+           </div>
+
+
+        <div class="barra"><img class="logo" src="../static/images/logo-mcdonalds.png" alt="Logo de mcdonals">Menú</div>
+
+      </div>
+    </div>
+    <!-- Toolbar-->
+<!--
+    <div class="toolbar toolbar-bottom">
+      <div class="toolbar-inner">
+        <a href="#" class="link">Left Link</a>
+        <a href="#" class="link">Right Link</a>
+      </div>
+    </div>
+-->
+    <!-- Scrollable page content-->
+    <div class="page-content">
+        <div class="contenedor">
+            <div class="row">
+               <div class="centrar"><h2>Hamburguesa</h2></div>
+                <div data-pagination='{"el": ".swiper-pagination"}' data-space-between="10" data-slides-per-view="auto" data-centered-slides="true" class="swiper-container swiper-init demo-swiper demo-swiper-auto">
+                <div class="centrar swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="contenedor-h">
+                            <img src="../static/images/hamburguesa-cuarto-de-libra.png" alt="">
+                            <div class="texto"><h3>Cuarto de libra con queso</h3><br>
+                            Hamburguesa de res con lechuga romana, tomate, cabolla grillada, salsa especial y bacon rústico servida con pan tipo brioche.</div>
+                            <div class="block">
+                                <div class="row">
+                                    <button class="boton-h button button-fill">INFORMACIÓN NUTRICIONAL</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="contenedor-h">
+                            <img src="../static/images/hamburguesa-bigmac.png" alt="">
+                            <div class="texto"><h3>Big Mac</h3><br>
+                            Dos hamburguesas de carne de res en pan con ajonjoli acompañados con queso, cebolla, pepinillos,lechuga y salsa Big Mac.</div>
+                            <div class="block">
+                                <div class="row">
+                                    <button class="boton-h button button-fill">INFORMACIÓN NUTRICIONAL</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="contenedor-h">
+                            <img src="../static/images/hamburguesa-mcnifica.png" alt="">
+                            <div class="texto"><h3>McNífica</h3><br>
+                            Hamburguesa de res servida en pan con ajonjoli con mostaza, cebolla, tomate, ketchup, luchuga y mayonesa baja en grasa.</div>
+                            <div class="block">
+                                <div class="row">
+                                    <button class="boton-h button button-fill">INFORMACIÓN NUTRICIONAL</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+        </div>
+    </div>
+  </div>
+</template>
+<script>
+export default {}
+</script>

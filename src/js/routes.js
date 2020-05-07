@@ -5,6 +5,8 @@ import cupones from '../pages/cupones.f7.html';
 import miscupones from '../pages/miscupones.f7.html';
 import tourdenuestracocina from '../pages/tourdenuestracocina.f7.html';
 import menu from '../pages/menu.f7.html';
+import hamburguesa from '../pages/hamburguesa.f7.html';
+import pollo from '../pages/pollo.f7.html';
 
 
 var routes = [
@@ -36,6 +38,16 @@ var routes = [
   {
     path: '/menu/',
     component: menu,
+  },
+
+  {
+    path: '/hamburguesa/',
+    component: hamburguesa,
+  },
+
+  {
+    path: '/pollo/',
+    component: pollo,
   },
 ];
 

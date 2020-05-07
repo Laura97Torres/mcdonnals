@@ -71,12 +71,12 @@
 }
 .swiper-wrapper img{
     margin: 0px 10px 35px;
-    height: 190px;
+    height: 135px;
     justify-content: space-around
 }
 .sub-titulo{
     padding: 30px 0px 10px 10px;
-    background-color: transparent
+    background-color: transparent;
 }
 .fondo-panel{
     background-color: black;
@@ -88,20 +88,37 @@
 .fondo-panel li{
     display: flex;
     background-color: black;
+    font-size: 12px
 }
 .fondo-panel img, .fondo-panel i{
     width: 30px;
-    margin: 0px 10px 0px 0px;
+    margin: 0px 20px 0px 0px;
 }
 .barra{
     display: flex;
     color: #fc0;
 }
 .barra img{
-    width: 7%;
-    margin: 0px 10px 0px 30px
+    width: 8%;
+    margin: 6px 10px 0px 30px
 }
 .titulo-tres{
     color: #fc0;
     margin: 0px 310px 0px 10px
+}
+.menu-comida{
+    width: 100%;
+    margin: 0px
+}
+.menu-comida img{
+    width: 50px;
+    text-align: end
+}
+.centrar{
+    text-align: center;
+    margin: auto;
+}
+.boton-h{
+    background: #fc0;
+    color:black;
 }
