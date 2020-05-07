@@ -4,6 +4,7 @@ import mcdelivery from '../pages/mcdelivery.f7.html';
 import cupones from '../pages/cupones.f7.html';
 import miscupones from '../pages/miscupones.f7.html';
 import tourdenuestracocina from '../pages/tourdenuestracocina.f7.html';
+import menu from '../pages/menu.f7.html';
 
 
 var routes = [
@@ -30,6 +31,11 @@ var routes = [
   {
     path: '/miscupones/',
     component: miscupones,
+  },
+
+  {
+    path: '/menu/',
+    component: menu,
   },
 ];
 
