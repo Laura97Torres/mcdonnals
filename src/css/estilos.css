@@ -108,10 +108,10 @@
 }
 .menu-comida{
     width: 100%;
-    margin: 0px
+    margin: 0px;
 }
 .menu-comida img{
-    width: 50px;
+    width: 70px;
     text-align: end
 }
 .centrar{
@@ -121,4 +121,7 @@
 .boton-h{
     background: #fc0;
     color:black;
+}
+.menu-comida-m{
+    padding: 40px
 }
